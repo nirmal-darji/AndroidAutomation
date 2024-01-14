@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Basic Test">
+	<parameter name="URL" value="www.reddit.com"></parameter>
+	<groups>
+		<run>
+			<include name="Tag1"></include>
+		</run>
+	</groups>
+	<classes>
+		<class name="ECommerce.pageFactory.Basics"/>
+	</classes>
+	
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->

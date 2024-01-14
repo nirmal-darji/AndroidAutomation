@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-13T07:10:31 CET" name="Suite" finished-at="2024-01-13T07:11:46 CET" duration-ms="74768">
+    <groups>
+      <group name="Smoke">
+        <method signature="Basics.CheckErrorToastMessage()[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" name="CheckErrorToastMessage" class="ECommerce.pageFactory.Basics"/>
+        <method signature="Basics.FillForm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" name="FillForm" class="ECommerce.pageFactory.Basics"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-01-13T07:10:31 CET" name="Basic Test" finished-at="2024-01-13T07:11:46 CET" duration-ms="74768">
+      <class name="ECommerce.pageFactory.Basics">
+        <test-method is-config="true" signature="AppiumConfiguration()[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:10:31 CET" name="AppiumConfiguration" finished-at="2024-01-13T07:10:36 CET" duration-ms="5442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumConfiguration -->
+        <test-method is-config="true" signature="instantiatePages()[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:10:36 CET" name="instantiatePages" finished-at="2024-01-13T07:10:38 CET" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiatePages -->
+        <test-method is-config="true" signature="bringAppToLaunchScreen()[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:10:38 CET" name="bringAppToLaunchScreen" finished-at="2024-01-13T07:10:40 CET" duration-ms="2086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bringAppToLaunchScreen -->
+        <test-method signature="CheckErrorToastMessage()[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:10:40 CET" name="CheckErrorToastMessage" finished-at="2024-01-13T07:10:46 CET" duration-ms="5901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckErrorToastMessage -->
+        <test-method is-config="true" signature="bringAppToLaunchScreen()[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:10:46 CET" name="bringAppToLaunchScreen" finished-at="2024-01-13T07:10:48 CET" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bringAppToLaunchScreen -->
+        <test-method signature="FillForm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:10:48 CET" name="FillForm" data-provider="getTestData" finished-at="2024-01-13T07:11:19 CET" duration-ms="31505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nirmal Darji]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="bringAppToLaunchScreen()[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:11:19 CET" name="bringAppToLaunchScreen" finished-at="2024-01-13T07:11:22 CET" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bringAppToLaunchScreen -->
+        <test-method signature="FillForm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:11:22 CET" name="FillForm" data-provider="getTestData" finished-at="2024-01-13T07:11:45 CET" duration-ms="23447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Richa Darji]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Germany]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ECommerce.pageFactory.Basics@55cb6996]" started-at="2024-01-13T07:11:45 CET" name="tearDown" finished-at="2024-01-13T07:11:46 CET" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ECommerce.pageFactory.Basics -->
+    </test> <!-- Basic Test -->
+  </suite> <!-- Suite -->
+</testng-results>

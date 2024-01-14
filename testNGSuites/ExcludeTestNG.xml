@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Basic Test">
+
+    <packages>
+		<package name="ECommerce.pageFactory">
+			<exclude name="CheckHybridWebView"></exclude>
+			<exclude name="VerifyTermsOnCartPage"></exclude>
+			<exclude name="SelectShoes"></exclude>
+			<exclude name="Fill.*"></exclude>
+		</package>
+	</packages>
+	
+	<classes>
+		<class name="ECommerce.pageFactory.Basics">
+			<methods>
+				<exclude name="SelectShoes"></exclude>
+				<exclude name="Fill.*"></exclude>
+			</methods>
+		</class>
+	</classes>
+
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->

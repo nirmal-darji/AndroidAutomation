@@ -1,0 +1,14 @@
+#1: commons-io mvn dependency:
+-> It will parse JSON File to JSON String
+
+#2: jackson-databind mvn dependency:
+-> It will convert JSON string to Hash-Map
+
+
+
+**********************************
+
+Maven commands
+--------------
+mvn test -PSmokeTests
+mvn test -PRegressionTests -DdeviceName=Nirmal'sPhone
