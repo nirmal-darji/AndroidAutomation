@@ -73,7 +73,7 @@ public class Basics extends BaseSetup {
 	@Parameters({"URL"})
 	@Test(groups = {"Smoke", "Tag1"})
 	public void CheckErrorToastMessage(String testURL) throws InterruptedException {
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		System.out.println(testURL);     // Value coming from Parameters.xml testNG file
 		launchPage.clickOnLetsShopButton();		
 		String actualToastMessage = launchPage.getErrorToastMessage();
